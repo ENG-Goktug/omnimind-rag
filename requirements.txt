@@ -1,0 +1,14 @@
+# Pydantic ve Ayarlar (Gelişmiş yapılandırma için)
+pydantic>=2.0.0
+pydantic-settings
+
+# NLP, Matematik ve Vektör İşlemleri
+numpy
+sentence-transformers
+rank_bm25
+chromadb
+
+# Geliştirici ve Test Araçları
+pytest
+typing-extensions
+requests
