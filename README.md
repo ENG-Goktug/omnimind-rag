@@ -69,18 +69,3 @@ Design Patterns: Singleton Pattern (Configuration), Tokenization Pipelines, Func
 
 
 ---
-
-## 📦 GitHub'a Güvenli Yükleme Rehberi (Çok Önemli)
-
-Kodlarımızın içine kişisel bilgilerimizin sızmadığından eminiz, ancak demin konuştuğumuz gibi `data/` klasörünün (ChromaDB'nin yerel dosyaları) ve Python sanal ortamının (`.venv/`) GitHub'a yüklenmesini engellememiz gerekiyor.
-
-1. Projenin en dış dizinine `.gitignore` adında yeni bir dosya aç (PyCharm'da `New -> File` deyip adını tam olarak `.gitignore` yap).
-2. İçine şu satırları ekle ve kaydet:
-   ```text
-   .venv/
-   venv/
-   __pycache__/
-   *.pyc
-   data/
-   .env
-   .idea/
